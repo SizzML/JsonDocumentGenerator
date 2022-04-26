@@ -7,7 +7,7 @@ import (
 )
 
 func GenerateFileByStruct(fileName string, _struct interface{}) {
-	file, err := json.MarshalIndent(_struct, "", " ")
+	file, err := json.MarshalIndent(_struct, "", "  ")
 	if err != nil {
 		fmt.Println("Error on MarshalIdent to create file", err)
 	}
