@@ -1,0 +1,132 @@
+{
+ "document": {
+  "views": [
+   {
+    "company": {
+     "columns": {
+      "business_name": "",
+      "address": "",
+      "name": ""
+     },
+     "records": {
+      "business_name": null,
+      "address": null,
+      "name": null
+     }
+    },
+    "date_range": {
+     "columns": {
+      "from": "",
+      "to": "",
+      "generation_date": "",
+      "id_user": ""
+     },
+     "records": {
+      "from": "",
+      "to": "",
+      "generation_date": "",
+      "id_user": ""
+     }
+    },
+    "balance": {
+     "columns": {
+      "initial_balance": "initial b",
+      "deposits": "deposits",
+      "debits": "",
+      "commisions": "",
+      "retencion": "",
+      "average_balance": "",
+      "balance": ""
+     },
+     "records": {
+      "initial_balance": "records initial balance",
+      "deposits": "",
+      "debits": "",
+      "commisions": "",
+      "retencion": "",
+      "average_balance": "",
+      "balance": ""
+     }
+    },
+    "details": {
+     "columns": {
+      "accreditation_date": "",
+      "movement_type": "",
+      "transaction_type": "",
+      "transaction_id": "",
+      "account_commission": "",
+      "business_name": ""
+     },
+     "records": null
+    }
+   },
+   {
+    "company": {
+     "columns": {
+      "business_name": "",
+      "address": "",
+      "name": ""
+     },
+     "records": {
+      "business_name": null,
+      "address": null,
+      "name": null
+     }
+    },
+    "date_range": {
+     "columns": {
+      "from": "",
+      "to": "",
+      "generation_date": "",
+      "id_user": ""
+     },
+     "records": {
+      "from": "",
+      "to": "",
+      "generation_date": "",
+      "id_user": ""
+     }
+    },
+    "balance": {
+     "columns": {
+      "initial_balance": "initial b2",
+      "deposits": "deposits2",
+      "debits": "",
+      "commisions": "",
+      "retencion": "",
+      "average_balance": "",
+      "balance": ""
+     },
+     "records": {
+      "initial_balance": "records initial balance2",
+      "deposits": "",
+      "debits": "",
+      "commisions": "",
+      "retencion": "",
+      "average_balance": "",
+      "balance": ""
+     }
+    },
+    "details": {
+     "columns": {
+      "accreditation_date": "",
+      "movement_type": "",
+      "transaction_type": "",
+      "transaction_id": "",
+      "account_commission": "",
+      "business_name": ""
+     },
+     "records": null
+    }
+   }
+  ],
+  "metadata": {
+   "rows": 0,
+   "range_date": {
+    "begin": "",
+    "end": ""
+   },
+   "user": ""
+  }
+ }
+}

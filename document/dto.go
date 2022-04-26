@@ -1,16 +1,16 @@
 package document
 
 type DocumentDto struct {
-	Document Document
+	Document Document `json:"document"`
 }
 
 type Document struct {
-	Views    []View
+	Views    []View   `json:"views"`
 	Metadata Metadata `json:"metadata"`
 }
 
 type Metadata struct {
-	Rows      string `json:"rows"`
+	Rows      int `json:"rows"`
 	RangeDate struct {
 		Begin string `json:"begin"`
 		End   string `json:"end"`
@@ -35,10 +35,7 @@ type View struct {
 		Columns DateRangeType `json:"columns"`
 		Records DateRangeType `json:"records"`
 	} `json:"date_range"`
-	Balance struct {
-		Columns BalanceType `json:"columns"`
-		Records BalanceType `json:"records"`
-	} `json:"balance"`
+	Balance Balance `json:"balance"`
 	Details struct {
 		Columns struct {
 			AccreditationDate string `json:"accreditation_date"`
@@ -50,6 +47,11 @@ type View struct {
 		} `json:"columns"`
 		Records []string `json:"records"`
 	} `json:"details"`
+}
+
+type Balance struct {
+	Columns BalanceType `json:"columns"`
+	Records BalanceType `json:"records"`
 }
 
 type BalanceType struct {
