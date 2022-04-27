@@ -4,63 +4,245 @@
       {
         "company": {
           "columns": {
-            "business_name": "Busines perrito, funciona zorro",
-            "address": "",
-            "name": ""
+            "business_name": "DENOMINACIÓN SOCIAL",
+            "address": "DOMICILIO",
+            "name": "NOMBRE"
           },
           "records": {
             "business_name": [
-              "Si sirve :33"
+              "Mercado Pago S.A.",
+              "Compañía de Financiamiento",
+              "NIT: 901449740-9"
             ],
-            "address": null,
-            "name": null
+            "address": [
+              "Carrera 17 Nº 93-09 p.3",
+              "Bogotá D.C., Colombia",
+              "Teléfono comercial: 6017053050"
+            ],
+            "name": [
+              "ADIDAS COLOMBIA LIMITADA"
+            ]
           }
         },
         "date_range": {
           "columns": {
-            "from": "Pruebaaaa xd",
-            "to": "",
-            "generation_date": "",
-            "id_user": ""
+            "from": "DESDE",
+            "to": "HASTA",
+            "generation_date": "FECHA DE GENERACIÓN",
+            "id_user": "ID DE USUARIO"
           },
           "records": {
-            "from": "Ora si papa",
-            "to": "",
-            "generation_date": "",
-            "id_user": ""
+            "from": "01-03-2021 00:00:00",
+            "to": "20-04-2021 00:00:00",
+            "generation_date": "11-11-2021 05:03:05",
+            "id_user": "123456789"
           }
         },
         "balance": {
           "columns": {
-            "initial_balance": "",
-            "deposits": "",
-            "debits": "",
-            "commisions": "",
-            "retencion": "",
-            "average_balance": "",
-            "balance": ""
+            "initial_balance": "BALANCE INICIAL",
+            "deposits": "DEPÓSITOS",
+            "debits": "DÉBITOS",
+            "commisions": "COMISIONES",
+            "retencion": "RETENCIONES POR IMPUESTOS",
+            "average_balance": "PROMEDIO DIARIO DE SALDOS",
+            "balance": "BALANCE FINAL"
           },
           "records": {
-            "initial_balance": "",
-            "deposits": "",
-            "debits": "",
-            "commisions": "",
-            "retencion": "",
-            "average_balance": "",
-            "balance": ""
+            "initial_balance": "976210.28",
+            "deposits": "356802198.00",
+            "debits": "340201206.00",
+            "commisions": "14918119.40",
+            "retencion": "0.00",
+            "average_balance": "2659082.88",
+            "balance": "2659082.88"
           }
         },
         "details": {
           "columns": {
-            "accreditation_date": "",
-            "movement_type": "",
-            "transaction_type": "",
-            "transaction_id": "",
-            "currency": "",
-            "account_commission": "",
-            "business_name": ""
+            "accreditation_date": "FECHA DE ACREDITACIÓN",
+            "movement_type": "TIPO DE MOVIMIENTO",
+            "transaction_type": "TIPO DE TRANSACCIÓN",
+            "transaction_id": "ID DE TRANSACCIÓN",
+            "currency": "MONEDA",
+            "transaction_amount": "MONTO DE TRANSACCIÓN",
+            "account_commission": "COMISIÓN DE CUENTA",
+            "business_name": "NOMBRE DEL COMERCIO"
           },
-          "records": null
+          "records": [
+            [
+              "01-03-2021 00:31:00",
+              "ABONO",
+              "Pago",
+              "13838829463#0",
+              "COP (pesos colombianos)",
+              "56314.27",
+              "-2659.73",
+              "Nombre del comercio"
+            ],
+            [
+              "01-03-2021 00:31:00",
+              "ABONO",
+              "Pago",
+              "13838829463#1",
+              "COP (pesos colombianos)",
+              "56314.27",
+              "-2659.73",
+              "Nombre del comercio"
+            ],
+            [
+              "01-03-2021 00:31:00",
+              "ABONO",
+              "Pago",
+              "13838829463#2",
+              "COP (pesos colombianos)",
+              "56314.27",
+              "-2659.73",
+              "Nombre del comercio"
+            ],
+            [
+              "01-03-2021 00:31:00",
+              "ABONO",
+              "Pago",
+              "13838829463#3",
+              "COP (pesos colombianos)",
+              "56314.27",
+              "-2659.73",
+              "Nombre del comercio"
+            ],
+            [
+              "01-03-2021 00:31:00",
+              "ABONO",
+              "Pago",
+              "13838829463#4",
+              "COP (pesos colombianos)",
+              "56314.27",
+              "-2659.73",
+              "Nombre del comercio"
+            ]
+          ]
+        }
+      },
+      {
+        "company": {
+          "columns": {
+            "business_name": "DENOMINACIÓN SOCIAL",
+            "address": "DOMICILIO",
+            "name": "NOMBRE"
+          },
+          "records": {
+            "business_name": [
+              "Mercado Pago S.A.",
+              "Compañía de Financiamiento",
+              "NIT: 901449740-9"
+            ],
+            "address": [
+              "Carrera 17 Nº 93-09 p.3",
+              "Bogotá D.C., Colombia",
+              "Teléfono comercial: 6017053050"
+            ],
+            "name": [
+              "ADIDAS COLOMBIA LIMITADA"
+            ]
+          }
+        },
+        "date_range": {
+          "columns": {
+            "from": "DESDE",
+            "to": "HASTA",
+            "generation_date": "FECHA DE GENERACIÓN",
+            "id_user": "ID DE USUARIO"
+          },
+          "records": {
+            "from": "01-03-2021 00:00:00",
+            "to": "20-04-2021 00:00:00",
+            "generation_date": "11-11-2021 05:03:05",
+            "id_user": "123456789"
+          }
+        },
+        "balance": {
+          "columns": {
+            "initial_balance": "BALANCE INICIAL",
+            "deposits": "DEPÓSITOS",
+            "debits": "DÉBITOS",
+            "commisions": "COMISIONES",
+            "retencion": "RETENCIONES POR IMPUESTOS",
+            "average_balance": "PROMEDIO DIARIO DE SALDOS",
+            "balance": "BALANCE FINAL"
+          },
+          "records": {
+            "initial_balance": "976210.28",
+            "deposits": "356802198.00",
+            "debits": "340201206.00",
+            "commisions": "14918119.40",
+            "retencion": "0.00",
+            "average_balance": "2659082.88",
+            "balance": "2659082.88"
+          }
+        },
+        "details": {
+          "columns": {
+            "accreditation_date": "FECHA DE ACREDITACIÓN",
+            "movement_type": "TIPO DE MOVIMIENTO",
+            "transaction_type": "TIPO DE TRANSACCIÓN",
+            "transaction_id": "ID DE TRANSACCIÓN",
+            "currency": "MONEDA",
+            "transaction_amount": "MONTO DE TRANSACCIÓN",
+            "account_commission": "COMISIÓN DE CUENTA",
+            "business_name": "NOMBRE DEL COMERCIO"
+          },
+          "records": [
+            [
+              "01-03-2021 00:31:00",
+              "ABONO",
+              "Pago",
+              "13838829463#0",
+              "COP (pesos colombianos)",
+              "56314.27",
+              "-2659.73",
+              "Nombre del comercio"
+            ],
+            [
+              "01-03-2021 00:31:00",
+              "ABONO",
+              "Pago",
+              "13838829463#1",
+              "COP (pesos colombianos)",
+              "56314.27",
+              "-2659.73",
+              "Nombre del comercio"
+            ],
+            [
+              "01-03-2021 00:31:00",
+              "ABONO",
+              "Pago",
+              "13838829463#2",
+              "COP (pesos colombianos)",
+              "56314.27",
+              "-2659.73",
+              "Nombre del comercio"
+            ],
+            [
+              "01-03-2021 00:31:00",
+              "ABONO",
+              "Pago",
+              "13838829463#3",
+              "COP (pesos colombianos)",
+              "56314.27",
+              "-2659.73",
+              "Nombre del comercio"
+            ],
+            [
+              "01-03-2021 00:31:00",
+              "ABONO",
+              "Pago",
+              "13838829463#4",
+              "COP (pesos colombianos)",
+              "56314.27",
+              "-2659.73",
+              "Nombre del comercio"
+            ]
+          ]
         }
       }
     ],

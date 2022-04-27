@@ -12,9 +12,9 @@ type CompanyBuilder interface {
 }
 
 type companyBuilder struct {
+	viewBuilderInstance *viewBuilder
 	columns             Company_Columns
 	records             Company_Records
-	viewBuilderInstance *viewBuilder
 }
 
 func (cb *companyBuilder) injectViewInstance(viewBuilder *viewBuilder) {

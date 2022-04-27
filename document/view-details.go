@@ -11,7 +11,9 @@ type Details_Columns struct {
 	TransactionType   string `json:"transaction_type"`
 	TransactionId     string `json:"transaction_id"`
 	Currency          string `json:"currency"`
+	TransactionAmount string `json:"transaction_amount"`
 	AccountCommission string `json:"account_commission"`
 	BusinessName      string `json:"business_name"`
 }
-type Details_Records []string
+
+type Details_Records [][]string
