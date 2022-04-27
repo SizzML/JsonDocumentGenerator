@@ -48,7 +48,7 @@ func (vb *viewBuilder) CreateDetails() DetailsBuilder {
 	return vb.detailsBuilder
 }
 
-func NewViewsBuilder() *viewBuilder {
+func NewView() *viewBuilder {
 	viewBuilderInstance := &viewBuilder{}
 	companyBuilderInstance := &companyBuilder{}
 	dateRangeBuilderInstance := &dateRangeBuilder{}

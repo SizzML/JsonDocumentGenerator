@@ -10,12 +10,14 @@ type Document struct {
 }
 
 type Metadata struct {
-	Rows      int `json:"rows"`
-	RangeDate struct {
-		Begin string `json:"begin"`
-		End   string `json:"end"`
-	} `json:"range_date"`
-	User string `json:"user"`
+	Rows      int                `json:"rows"`
+	RangeDate Metadata_RangeDate `json:"range_date"`
+	User      string             `json:"user"`
+}
+
+type Metadata_RangeDate struct {
+	Begin string `json:"begin"`
+	End   string `json:"end"`
 }
 
 type View struct {

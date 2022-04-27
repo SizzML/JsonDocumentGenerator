@@ -6,6 +6,7 @@ import (
 
 type DocumentBuilder interface {
 	AppendView(View) DocumentBuilder
+	SetMetadata(Metadata) DocumentBuilder
 	Build() *DocumentDto
 }
 
@@ -28,6 +29,10 @@ func (dB *documentBuilder) Build() *DocumentDto {
 
 func (dB *documentBuilder) AppendView(view View) DocumentBuilder {
 	dB.Views = append(dB.Views, view)
+	return dB
+}
+func (dB *documentBuilder) SetMetadata(metadata Metadata) DocumentBuilder {
+	dB.Metadata = metadata
 	return dB
 }
 
